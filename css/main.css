@@ -158,12 +158,15 @@
                 text-align: center;
                 padding-top: 71px;
             }
-            .mant8{
-                transition: 2s;
-                transform: scale(1.2, 1.2);
-                transform:  rotate(45deg);
+            .matn8:hover{
+                transform: scale(-1,-10);
                 transform: matrix(0.5, 0.1, 0.1, 0.5, 10, 15);
-
+             
+               transition: 3s;
+            }
+            .matn8:active{
+                transform-origin:top;
+                transform: rotate(360deg);
             }
             .matn8{
                 width: 175px;
@@ -172,4 +175,5 @@
                 margin-left: 50px;
                 margin-top: 112px;
                 border: 2px solid  #39507a;
+               
                 }
